@@ -4,16 +4,34 @@
   <link rel="shortcut icon" href="src/assets/clocl.svg" type="image/x-icon">
   <link rel="stylesheet" href="src/indexstyle.css">
   <meta charset="UTF-8">
+  <script src="src/assets/js/index.js"></script>
+  <script src="src/assets/js/tsx/index.tsx"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pomodoro timer</title>
 </head>
 <body>
   <header>
-
+    <h1>WELCOME</h1>
   </header>
 
   <main> 
-  
+    <div class="set-timer">
+      <div class="h-time">
+      <h4>Hour</h4>
+        <button type="button" id="bMinusOne">-1</button>
+        <script src="src/assets/js/timeSetHour.js"></script>
+        <button type="button" id="bPlusOne">+1</button>
+      </div>
+      <h4>Minutes</h4>
+    </div>
+    <div class="timers">
+      <div class="wrapper1">
+        <h5>Time to work:</h5>
+      </div>
+      <div class="wrapper2">
+        <h5>Time to chill:</h5>
+      </div>
+    </div>
   </main>
 </body>
 </html>

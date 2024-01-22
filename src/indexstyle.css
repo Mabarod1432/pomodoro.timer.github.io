@@ -1,0 +1,30 @@
+/*imports and variables*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root{
+    --color-text-:rgb(31, 39, 27);
+    --color-back-:rgb(250, 240, 202);
+    --testo-fond-:'Noto Sans', sans-serif;
+}
+/*hard reset*/
+body{
+    font-family: var(--testo-fond-);
+    color: var(--color-text-);
+    background-color: var(--color-back-);
+    font-family: var(--testo-fond-);
+}
+/*Header*/
+header{
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 2px;margin-right: 2px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    padding-left: 0.5px;
+    border-radius:2%; 
+    color: white;
+    background-color: rgb(96, 49, 64);
+}
+
+
+/*Main*/
